@@ -121,7 +121,7 @@ As notas foram salvas no localStorage do navegador, garantindo que as notas cria
  
 - [ReactJS](https://reactjs.org/) - Biblioteca de JavaScript para construção de interfaces.
 - [React Native](https://reactnative.dev/) - Uma framework poderosa desenvolvida pelo Facebook que permite aos desenvolvedores construir aplicativos móveis utilizando JavaScript.
-- [Expo](https://reactnative.dev/) - Ferramenta utilizada no desenvolvimento mobile com React Native.
+- [Expo](https://docs.expo.dev/) - Ferramenta utilizada no desenvolvimento mobile com React Native.
 - [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript que adiciona tipagem estática ao código.
 - [Zustand](https://zustand-demo.pmnd.rs/) - Biblioteca minimalista e prática para gerenciamento de estados no React e React Native.
 - [Nativewild](https://www.nativewind.dev/v4/getting-started/expo-router) - Usa Tailwind CSS como linguagem de script para criar um sistema de estilo universal para React Native.
