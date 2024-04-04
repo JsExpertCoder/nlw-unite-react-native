@@ -22,6 +22,7 @@
 - [Deploy](#deployment_pt)
 - [Usando](#usage_pt)
 - [Tecnologias](#built_using_pt)
+- [Contactos](#contact)
 
 ## 🧐 Sobre <a name = "about_pt"></a>
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**.
@@ -91,6 +92,10 @@ Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o 
 - [Nativewild](https://www.nativewind.dev/v4/getting-started/expo-router) - Usa Tailwind CSS como linguagem de script para criar um sistema de estilo universal para React Native.
 - [Tailwind](https://tailwindcss.com) - Framework de estilização.
 
+## Contactos <a name = "contact">
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/orodrigogo/)](https://www.linkedin.com/in/f%C3%A1bio-nicolau-97bab92b3/) 
+[![Gmail Badge](https://img.shields.io/badge/-misterjs24700@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:misterjs247000@gmail.com)](mailto:misterjs247000@gmail.com)
 
 
 # English <a name = "en"></a>
@@ -103,6 +108,7 @@ Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o 
 - [Deployment](#deployment_en)
 - [Usage](#usage_en)
 - [Technologies](#built_using_en)
+- [Contact](#contact_en)
 
 ## 🧐 About <a name = "about_en"></a>
 Pass.in is an application for **managing participants in offline events**. The mobile version allows participants to issue a QR-Code credential for check-in on the day of the event. It was built during Rocketseat's "Next Level Week Unite" event, on the React Native track. The application was built using TypeScript, tailwindcss, zustand, nativewind, and other technologies.
@@ -160,3 +166,8 @@ With that, the server will be running at <code>http://localhost:3333</code>, and
 - [Zustand](https://zustand-demo.pmnd.rs/) - A minimalist and practical state management library for React and React Native.
 - [Nativewild](https://www.nativewind.dev/v4/getting-started/expo-router) - Uses Tailwind CSS as a scripting language to create a universal styling system for React Native.
 - [Tailwind](https://tailwindcss.com) - A utility-first CSS framework.
+
+- ## Contacts <a name = "contact_en">
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/orodrigogo/)](https://www.linkedin.com/in/f%C3%A1bio-nicolau-97bab92b3/) 
+[![Gmail Badge](https://img.shields.io/badge/-misterjs24700@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:misterjs247000@gmail.com)](mailto:misterjs247000@gmail.com)
