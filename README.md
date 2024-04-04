@@ -45,16 +45,28 @@ Para acessar o projeto, basta clonar o repositório ou realizar o download dos a
 Para clonar o repositório, utilize o seguinte comando no seu terminal:
 
 ```sh
-git clone https://github.com/LeonardoSPereira/ExpertNotes
+https://github.com/JsExpertCoder/nlw-unite-react-native.git
 ```
 
-Após clonar o repositório, acesse a pasta do projeto e instale as dependências utilizando o seguinte comando no seu terminal:
+Após clonar o repositório, acesse a pasta **mobile** e instale as dependências utilizando o seguinte comando no seu terminal:
 
 ```sh
 npm install
 ```
 
-Após instalar as dependências, utilize o seguinte comando no seu terminal para iniciar a aplicação:
+Depois disso acesse a pasta **server** e instale as dependências utilizando o seguinte comando no seu terminal:
+
+```sh
+npm install
+```
+
+Após instalar as dependências da pasta **server**, ainda estando nesta pasta utilize o seguinte comando no seu terminal para iniciar o servidor:
+
+```sh
+npm run dev
+```
+
+Após rodar o servidor, você pode acessar uma interface gráfica pra visualizar os dados no banco de dados rodadndo o seguinte comando no ser terminal (**na pasta server**):
 
 ```sh
 npm run dev
