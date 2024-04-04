@@ -152,3 +152,11 @@ npx prisma studio
 With that, the server will be running at <code>http://localhost:3333</code>, and the Prisma Studio (the graphical interface) at <code>http://localhost:5555</code>, to access, just access this address in your browser.
 
 ## ⛏️ Technologies <a name = "built_using_en"></a>
+
+- [ReactJS](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [React Native](https://reactnative.dev/) - A powerful framework developed by Facebook that allows developers to build mobile apps using JavaScript.
+- [Expo](https://docs.expo.dev/) - Tool used in mobile development with React Native.
+- [TypeScript](https://www.typescriptlang.org/) - A superset of JavaScript that adds static typing to the language.
+- [Zustand](https://zustand-demo.pmnd.rs/) - A minimalist and practical state management library for React and React Native.
+- [Nativewild](https://www.nativewind.dev/v4/getting-started/expo-router) - Uses Tailwind CSS as a scripting language to create a universal styling system for React Native.
+- [Tailwind](https://tailwindcss.com) - A utility-first CSS framework.
