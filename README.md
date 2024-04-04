@@ -80,7 +80,10 @@ npx prisma studio
 ```
 
 Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o Prisma Studio (a interface gáfica) em <code>http://localhost:5555</code>, para acessar, basta acessar esse endereço no seu navegador.
-[comment]: <> (This is a comment, it will not be included)
+<!---
+your comment goes here
+and here
+
 ## 📁 Estrutura do projeto <a name = "project_structure_pt"></a>
 A estrutura do projeto é a seguinte:
 ```
@@ -113,7 +116,7 @@ Para usar a aplicação, basta acessar a aplicação [aqui](https://expert-notes
 As notas podem ser criadas por meio de texto ou áudio. Para criar uma nota por áudio, basta clicar no botão de iniciar gravação e falar o conteúdo da nota. Após terminar de falar, clique no botão de parar gravação. A nota será criada com o conteúdo falado e poderá ser editada antes de ser salva, garantindo que a nota esteja correta.<br>
 As notas podem ser excluídas clicando no botão de excluir na nota desejada. <br>
 As notas foram salvas no localStorage do navegador, garantindo que as notas criadas estejam sempre disponíveis, mesmo após fechar a aplicação.
-
+-->
 ## ⛏️ Tecnologias <a name = "built_using_pt"></a>
 - [ReactJS](https://reactjs.org/) - Biblioteca de JavaScript para construção de interfaces.
 - [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript que adiciona tipagem estática ao código.
