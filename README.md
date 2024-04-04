@@ -118,14 +118,15 @@ As notas podem ser excluídas clicando no botão de excluir na nota desejada. <b
 As notas foram salvas no localStorage do navegador, garantindo que as notas criadas estejam sempre disponíveis, mesmo após fechar a aplicação.
 -->
 ## ⛏️ Tecnologias <a name = "built_using_pt"></a>
+ 
 - [ReactJS](https://reactjs.org/) - Biblioteca de JavaScript para construção de interfaces.
+- [React Native](https://reactnative.dev/) - Uma framework poderosa desenvolvida pelo Facebook que permite aos desenvolvedores construir aplicativos móveis utilizando JavaScript.
+- [Expo](https://reactnative.dev/) - Ferramenta utilizada no desenvolvimento mobile com React Native.
 - [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript que adiciona tipagem estática ao código.
-- [Tailwind](https://tailwindcss.com/) - Framework de estilização.
-- [Vite](https://vitejs.dev/) - Build tool para aplicações web.
-- [Radix UI](https://radix-ui.com/) - Biblioteca de componentes.
-- [Lucide React](https://lucide.dev/) - Biblioteca de ícones.
-- [Sonner](https://sonner.emilkowal.ski) - Biblioteca de notificações.
-- [SpeechRecognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) - API de reconhecimento de voz do navegador.
+- [Zustand](https://zustand-demo.pmnd.rs/) - Biblioteca minimalista e prática para gerenciamento de estados no React e React Native.
+- [Nativewild](https://www.nativewind.dev/v4/getting-started/expo-router) - Usa Tailwind CSS como linguagem de script para criar um sistema de estilo universal para React Native.
+- [Tailwind](https://tailwindcss.com) - Framework de estilização.
+
 
 
 ---
