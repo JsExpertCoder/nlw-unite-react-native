@@ -167,7 +167,7 @@ With that, the server will be running at <code>http://localhost:3333</code>, and
 - [Nativewild](https://www.nativewind.dev/v4/getting-started/expo-router) - Uses Tailwind CSS as a scripting language to create a universal styling system for React Native.
 - [Tailwind](https://tailwindcss.com) - A utility-first CSS framework.
 
-- ## Contacts <a name = "contact_en">
+## Contacts <a name = "contact_en">
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/orodrigogo/)](https://www.linkedin.com/in/f%C3%A1bio-nicolau-97bab92b3/) 
 [![Gmail Badge](https://img.shields.io/badge/-misterjs24700@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:misterjs247000@gmail.com)](mailto:misterjs247000@gmail.com)
