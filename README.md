@@ -80,43 +80,7 @@ npx prisma studio
 ```
 
 Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o Prisma Studio (a interface gáfica) em <code>http://localhost:5555</code>, para acessar, basta acessar esse endereço no seu navegador.
-<!---
-your comment goes here
-and here
 
-## 📁 Estrutura do projeto <a name = "project_structure_pt"></a>
-A estrutura do projeto é a seguinte:
-```
-├── public: pasta com arquivos públicos.
-
-├── src: pasta com arquivos do projeto.
-│   ├── assets: pasta com arquivos de imagem.
-
-│   ├── components: pasta com componentes da aplicação.
-│   │   ├── new-note-card.tsx: componente que contém o card para criação de uma nova nota.
-
-│   │   ├── note-card.tsx: componente que contém o card de uma nota.
-
-│   ├── app.tsx: arquivo que contém a aplicação.
-
-│   ├── index.css: arquivo de estilização que contém a inicialização do Tailwind.
-
-│   ├── main.tsx: arquivo que contém a inicialização do React.
-
-├── index.html: arquivo que contém a estrutura da aplicação.
-```
-
-## 🚀 Deploy <a name = "deployment_pt"></a>
-O deploy da aplicação foi realizado utilizando a plataforma Vercel. Que garante que a aplicação esteja sempre rodando na última versão do projeto, de forma estável e segura.<br>
-A aplicação pode ser acessada [aqui](https://expert-notes-wheat.vercel.app/).
-
-## 🎈 Usando <a name="usage_pt"></a>
-Para usar a aplicação, basta acessar a aplicação [aqui](https://expert-notes-wheat.vercel.app/). Ou rodar a aplicação localmente, seguindo as instruções acima.
-
-As notas podem ser criadas por meio de texto ou áudio. Para criar uma nota por áudio, basta clicar no botão de iniciar gravação e falar o conteúdo da nota. Após terminar de falar, clique no botão de parar gravação. A nota será criada com o conteúdo falado e poderá ser editada antes de ser salva, garantindo que a nota esteja correta.<br>
-As notas podem ser excluídas clicando no botão de excluir na nota desejada. <br>
-As notas foram salvas no localStorage do navegador, garantindo que as notas criadas estejam sempre disponíveis, mesmo após fechar a aplicação.
--->
 ## ⛏️ Tecnologias <a name = "built_using_pt"></a>
  
 - [ReactJS](https://reactjs.org/) - Biblioteca de JavaScript para construção de interfaces.
@@ -129,10 +93,10 @@ As notas foram salvas no localStorage do navegador, garantindo que as notas cria
 
 
 
----
 # English <a name = "en"></a>
 
-## 📝 Table of Contents <a name = "en"></a>
+## 📝 Table of Contents
+
 - [About](#about_en)
 - [Getting Started](#getting_started_en)
 - [Project Structure](#project_structure_en)
@@ -141,79 +105,50 @@ As notas foram salvas no localStorage do navegador, garantindo que as notas cria
 - [Technologies](#built_using_en)
 
 ## 🧐 About <a name = "about_en"></a>
-This project is a web application that allows users to create notes on any subject they want, either through text or audio. <br />
-It was built during the Next Level Week Expert event by Rocketseat, in the ReactJS track. <br />
-The application was built using ReactJS, TypeScript, Tailwind and other technologies. <br />
-The browser's voice recognition API was used for the audio notes functionality. <br />
+Pass.in is an application for **managing participants in offline events**. The mobile version allows participants to issue a QR-Code credential for check-in on the day of the event. It was built during Rocketseat's "Next Level Week Unite" event, on the React Native track. The application was built using TypeScript, tailwindcss, zustand, nativewind, and other technologies.
 
 ## 🏁 Getting Started <a name = "getting_started_en"></a>
-These instructions will allow you to get a copy of the project and run the application locally for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-To run the application, you need to have Node.js installed on your machine. You can download Node.js [here](https://nodejs.org/en/).
+To run the application, you need to have Node.js installed on your machine. You can download Node.js [here](https://nodejs.org/en/). You also need to have Git installed on your machine. You can download Git [here](https://git-scm.com/).
 
 ### Installation
-To access the project, either clone the repository or download the project files.<br>
-To clone the repository, use the following command in your terminal:
+To access the project, simply clone the repository or download the project files. To clone the repository, use the following command in your terminal:
 
 ```sh
-git clone https://github.com/LeonardoSPereira/ExpertNotes
+https://github.com/JsExpertCoder/nlw-unite-react-native.git
 ```
-
-After cloning the repository, navigate to the project folder and install dependencies using the following command in your terminal:
+After cloning the repository, access the **mobile** folder and install the dependencies using the following command in your terminal:
 
 ```sh
 npm install
 ```
 
-After installing the dependencies, use the following command in your terminal to start the application:
+After installing the dependencies of the **mobile** folder, you can run the app using the following command in your terminal (**being in the mobile folder**):
+
+```sh
+npx expo start
+```
+
+After this, just make sure you have the Expo Go app installed on your physical device and scan the QR-Code that appears in the terminal. You can find the Expo Go in the app store of your smartphone [here](https://docs.expo.dev/get-started/expo-go/#install-expo-go-on-your-device).
+
+Then, navigate to the **server** folder and install the dependencies using the following command in your terminal:
+```sh
+npm install
+```
+After installing the dependencies of the **server** folder, still being in this folder, use the following command in your terminal to start the server:
 
 ```sh
 npm run dev
 ```
 
-This will run the application at <code>http://localhost:5173</code>. To access the application, simply open this address in your browser.
+After running the server, you can access a graphical interface to visualize the data in the database by running the following command in your terminal (**in the server folder**):
 
-## 📁 Project Structure <a name = "project_structure_en"></a>
-The project structure is as follows:
-
-```
-├── public: folder with public files.
-
-├── src: folder with project files.
-│   ├── assets: folder with image files.
-
-│   ├── components: folder with application components.
-│   │   ├── new-note-card.tsx: component that contains the card for creating a new note.
-
-│   │   ├── note-card.tsx: component that contains the note card.
-
-│   ├── app.tsx: file that contains the application.
-
-│   ├── index.css: styling file that contains Tailwind initialization.
-
-│   ├── main.tsx: file that contains the React initialization.
-
-├── index.html: file that contains the application structure.
+```sh
+npx prisma studio
 ```
 
-## 🚀 Deployment <a name = "deployment_en"></a>
-The application was deployed using the Vercel platform. This ensures that the application is always running the latest version of the project, in a stable and secure manner.<br>
-The application can be accessed [here](https://expert-notes-wheat.vercel.app/).
-
-## 🎈 Usage <a name="usage_en"></a>
-To use the application, simply access the application [here](https://expert-notes-wheat.vercel.app/). Or run the application locally, following the instructions above.
-
-Notes can be created through text or audio. To create a note by audio, simply click the start recording button and speak the note content. After finishing speaking, click the stop recording button. The note will be created with the spoken content and can be edited before being saved, ensuring that the note is correct.<br>
-Notes can be deleted by clicking the delete button on the desired note. <br>
-The notes were saved in the browser's localStorage, ensuring that the created notes are always available, even after closing the application.
+With that, the server will be running at <code>http://localhost:3333</code>, and the Prisma Studio (the graphical interface) at <code>http://localhost:5555</code>, to access, just access this address in your browser.
 
 ## ⛏️ Technologies <a name = "built_using_en"></a>
-- [ReactJS](https://reactjs.org/) - JavaScript library for building interfaces.
-- [TypeScript](https://www.typescriptlang.org/) - Superset of JavaScript that adds static typing to the code.
-- [Tailwind](https://tailwindcss.com/) - Styling framework.
-- [Vite](https://vitejs.dev/) - Build tool for web applications.
-- [Radix UI](https://radix-ui.com/) - Component library.
-- [Lucide React](https://lucide.dev/) - Icon library.
-- [Sonner](https://sonner.emilkowal.ski) - Notification library.
-- [SpeechRecognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) - Browser voice recognition API.)
