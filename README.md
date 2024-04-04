@@ -54,6 +54,13 @@ Após clonar o repositório, acesse a pasta **mobile** e instale as dependência
 npm install
 ```
 
+Após instalar as dependências da pasta **mobile** você pode rodar o app  utilizando o seguinte comando no seu terminal(**estando na pasta mobile**):
+
+```sh
+npx expo start
+```
+Após isso, basta teres intalado o app **Expo Go** no dispositivo físico e fazer scan do QR-Code que aprecer no terminal. Você pode encontrar o **Expo Go** na loja do seu Smartphone [aqui](https://docs.expo.dev/get-started/expo-go/#install-expo-go-on-your-device).
+
 Depois disso acesse a pasta **server** e instale as dependências utilizando o seguinte comando no seu terminal:
 
 ```sh
@@ -69,10 +76,10 @@ npm run dev
 Após rodar o servidor, você pode acessar uma interface gráfica pra visualizar os dados no banco de dados rodadndo o seguinte comando no ser terminal (**na pasta server**):
 
 ```sh
-npm run dev
+npx prisma studio
 ```
 
-Com isso, a aplicação estará rodando em <code>http://localhost:5173</code>. Para acessar a aplicação, basta acessar esse endereço no seu navegador.
+Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o Prisma Studio (a interface gáfica) <code>http://localhost:5555</code>, para acessar, basta acessar esse endereço no seu navegador.
 
 ## 📁 Estrutura do projeto <a name = "project_structure_pt"></a>
 A estrutura do projeto é a seguinte:
