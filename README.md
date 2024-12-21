@@ -80,7 +80,7 @@ Após rodar o servidor, você pode acessar uma interface gráfica pra visualizar
 npx prisma studio
 ```
 
-Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o Prisma Studio (a interface gáfica) em <code>http://localhost:5555</code>, para acessar, basta acessar esse endereço no seu navegador.
+Com isso, o servidor estará rodando em <code>http://localhost:3333</code>, e o Prisma Studio (a interface gáfica para a base do dados) em <code>http://localhost:5555</code>, para acessar, basta acessar esse endereço no seu navegador.
 
 ## ⛏️ Tecnologias <a name = "built_using_pt"></a>
  
